@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".NotesEventActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/layout_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/horoscope"
+            android:textColor="#0F7481"
+            android:textStyle="bold"
+            android:textSize="35sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/thought"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="159dp"
+        android:text="@string/today_s_thought"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/prediction"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="159dp"
+        android:text="@string/prediction"
+
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thought" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

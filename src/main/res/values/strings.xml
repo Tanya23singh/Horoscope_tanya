@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">HoroscopeExamp</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">Sign-Up</string>
+    <string name="login_in">Login</string>
+    <string name="login">Login</string>
+    <string name="confrim_password">Confrim Password</string>
+    <string name="password">Password</string>
+    <string name="e_mail_id">E-Mail ID</string>
+    <string name="full_name">Full Name</string>
+    <string name="horoscope">Horoscope</string>
+    <string name="today_s_event"><![CDATA[-> Today\'s Event]]></string>
+    <string name="today_s_thought"><![CDATA[-> Today\'s Thought]]></string>
+    <string name="prediction"><![CDATA[-> Prediction]]></string>
+    <string name="today_event">Today Event</string>
+    <string name="today_thought">Today Thought</string>
+    <string name="prediction_s">Prediction\'s</string>
+    <string name="predictions_s_event">Predictions\'s Event</string>
+    <string name="daily"><![CDATA[-> Daily]]></string>
+    <string name="new_event">New Event</string>
+    <string name="weakly"><![CDATA[-> Weakly]]></string>
+    <string name="monthly"><![CDATA[-> Monthly]]></string>
+    <string name="yearly">Yearly</string>
+
+    <string name="choose">Choose</string>
+    <string name="goto_predicition">GoTo Predicition</string>
+    <string name="textview">TextView</string>
+    <string name="getting_the_prediction_for_future">(Getting The Prediction For Future)</string>
+    <string name="welcome_to_prediction">Welcome To Prediction</string>
+    <string name="color">Color:-</string>
+
+
+</resources>
