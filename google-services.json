@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "249448254199",
+    "project_id": "horoscopeexamp",
+    "storage_bucket": "horoscopeexamp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249448254199:android:b7fccca7c9bb91abb861f2",
+        "android_client_info": {
+          "package_name": "com.hemant.horoscopeexamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249448254199-p2dbsctv4eioodttovducl7n8k9fhnmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgjY6fIXoJhrIASwzPUWJJRsWX_HCXUic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249448254199-p2dbsctv4eioodttovducl7n8k9fhnmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
